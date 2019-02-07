@@ -2,40 +2,32 @@
 
 ## Painting editor
 
-### Specs
-- The painting is a **16x16** pixel
-- Create and **save** painting (in browser memory)
-- **Edit** saved paints
-- Can **tag** paints
-- **Search** paints by tags/names
-- Preset of **10 colors**
-- export/import **json**
-- **undo/redo**
+### Features
+1. Painting board
+  - The painting is a **16x16** pixel
+  - **undo/redo**
+2. Create, read, update and delete paintings (in browser memory)
+4. Can **tag** paints
+5. **Search** paints by tags/names
+6. Preset of **10 colors**
+7. export/import **json**
 
-
-
+### Wireframe
 <img src="./proto.png" width="600"/>
 
 
 ### Instructions:
- - Create a git repo
- - Use React + Redux + Webpack + ...
- - You can change the ui
+ - Use Git for version control
+ - Use React + Redux + Webpack + ... (no create-react-app and similar solutions)
+ - The UI/UX is up to you
  - Should work on Chrome
- - Prototype here [proto.png](/proto.png)
 
 
 ### Score:
 * Code quality
-  * Clean code
-  * Modularity
-  * Clarity
-* React
-  * Modularity
-  * Composition
-* Redux  
-  * State/Store design
-  * Events flow
-* Time management
-  * It's ok not to finish **all** the features, we care about your code
+* Clean code
+* Modularity
+* Clarity
+* UI/UX
+* Time management `It's ok not to finish **all** the features`
   
