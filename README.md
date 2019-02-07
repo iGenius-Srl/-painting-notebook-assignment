@@ -1,4 +1,4 @@
-# React/Redux homework
+# React/Redux
 
 ## Painting editor
 
