@@ -1,36 +1,46 @@
-# React/Redux
+# Paintings notebook
 
-## Painting editor
+A paintings notebook to express your creativity! 🎨
 
-### Features
+## Intro
+A Paintings Notebook id a web application, on which an user is able to create and save a set of pixel art paintings.
 
-1. Painting board
-    - The painting is a **16x16** pixel
-    - **undo/redo**
-2. Create, read, update and delete paintings (in browser memory)
-    - Can name them
-    - Can tag them
-    - Can search/filter them
-3. Can se a preset of **10 colors**
-4. Can export/import a painting
+### Functionalities
 
-### Wireframe
+Here's a wireframe of the application:
 
 <img src="./proto.png" width="600"/>
 
+#### Painting Board
+
+* It's a grid of 16 by 16 pixels, the user can color each pixel by left clicking the mouse.  
+* The user is able to pick colors from a palette of 10 colors.  
+* A painting can be named and tagged, and then saved into the notebook.  
+* Painting when saved will be stored on the browser, and they will be re-accessible when the application is started again.
+
+#### Notebook
+
+* Shows a list of all saved and open paintings, the selected one is shown in the Painting Board.  
+* A Painting can be exported from the Notebook.  
+* A Painting can be imported into the Notebook.  
+* The user is able to filter the Painting on the Notebook by Name or Tag.  
+* The user is able to create new Paintings.
 
 ### Instructions:
- - Use Git for version control
- - Use React + Redux + Webpack + ... (no create-react-app and similar solutions)
- - The UI/UX is up to you
- - Should work on Chrome
 
+Develop the code using the following restrictions:
+* Mandatory technologies to use are:
+    * React
+    * Redux   
+* Use a public git repository to submit your code. 
 
-### Score:
-* Code quality
-* Project architecture
-* Features
-* Modularity
-* UI/UX
-* Time management `It's ok not to finish **all** the features`
+You will be scored on:
+* Quality of the code.
+* Project architecture.
+* UI/UX.
+* Time management.
+
+It's ok not to finish all of the requested features.
+
+Happy coding! 🎈
   
